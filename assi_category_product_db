@@ -1,0 +1,26 @@
+create database assi_category_product_db;
+
+use assi_category_product_db;
+
+INSERT INTO category (id, name, description) VALUES
+(1, 'Electronics', 'Devices and gadgets'),
+(2, 'Clothing', 'Men and Women apparel'),
+(3, 'Books', 'Educational and entertainment books');
+
+INSERT INTO category (id, name, description) VALUES
+(4, 'Furniture', 'Home and office furniture');
+
+INSERT INTO product (id, name, manufacture, price, description, category_id) VALUES
+(1, 'Smartphone', 'Samsung', 699.99, 'Samsung Galaxy S21', 1),
+(2, 'Laptop', 'Dell', 1299.50, 'Dell XPS 13 Laptop', 1),
+(3, 'Headphones', 'Sony', 199.99, 'Sony WH-1000XM4 Noise Cancelling', 1),
+(4, 'T-Shirt', 'Levis', 29.99, 'Cotton round-neck T-shirt', 2),
+(5, 'Jeans', 'Levis', 59.99, 'Slim-fit denim jeans', 2),
+(6, 'Office Chair', 'IKEA', 150.00, 'Ergonomic mesh chair', 3),
+(7, 'Dining Table', 'Godrej', 500.00, 'Wooden dining table for 6', 3),
+(8, 'iPhone 14 Pro', 'Apple', 1299.99, 'Latest Apple flagship smartphone', 1),
+(9, 'Samsung Galaxy S23', 'Samsung', 1199.50, 'Flagship Samsung smartphone', 1),
+(10, 'Men T-Shirt', 'H&M', 19.99, 'Cotton casual wear', 2),
+(11, 'Women Dress', 'Zara', 49.99, 'Evening party wear', 2),
+(12, 'Java Programming', 'O\'Reilly', 29.99, 'Comprehensive guide to Java', 3),
+(13, 'The Alchemist', 'HarperCollins', 14.50, 'Novel by Paulo Coelho', 3);
