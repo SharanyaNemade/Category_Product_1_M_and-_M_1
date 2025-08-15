@@ -1,6 +1,4 @@
 # Category_Product_1_M_and-_M_1
-Create One-to-Many and Many-to-One mappings for Category and Product.
-
 The Category-Product Management System is a Spring Boot-based application designed to demonstrate the practical implementation of relational database concepts using modern Java development frameworks.
 In this project, we explore One-to-Many and Many-to-One mappings, where:
 One Category can have multiple Products
